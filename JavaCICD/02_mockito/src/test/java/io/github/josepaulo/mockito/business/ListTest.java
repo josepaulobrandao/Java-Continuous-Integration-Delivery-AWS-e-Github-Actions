@@ -1,7 +1,7 @@
 package io.github.josepaulo.mockito.business;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -15,7 +15,7 @@ public class ListTest {
 	// test[System Under Test]_[Condition or State Change]_[Expected Result]
 	@Test
 	@DisplayName("Display Name")
-	void testMockkingList_when_SizeIsCalled_shouldReturn10() {
+	void testMockingList_when_SizeIsCalled_shouldReturn10() {
 		// Given - Arrange
 		List<?> list = mock(List.class);	
 		when(list.size()).thenReturn(10);
@@ -28,7 +28,7 @@ public class ListTest {
 	}
 	@Test
 	@DisplayName("Display Name")
-	void testMockkingList_when_SizeIsCalled_shouldReturnMultipleValues() {
+	void testMockingList_when_SizeIsCalled_shouldReturnMultipleValues() {
 		// Given - Arrange
 		List<?> list = mock(List.class);	
 		when(list.size()).thenReturn(10).thenReturn(20);
@@ -40,14 +40,14 @@ public class ListTest {
 	}
 	@Test
 	@DisplayName("Display Name")
-	void testMockkingList_when_GetIsCalled_shouldReturnErudio() {
+	void testMockingList_when_GetIsCalledWhitArgumentMacher_ShouldReturnErudio() {
 		// Given - Arrange
 		List<String> list = mock(List.class);	
-		when(list.get(0)).thenReturn("Erudio");
+		when(list.get(anyInt())).thenReturn("Erudio");
 		
 		// Then - Assert && 	// When - Act
-		assertEquals("Erudio", list.get(0));
-		assertNull(list.get(1));
+		assertEquals("Erudio",list.get(anyInt()));
+		assertEquals("Erudio",list.get(anyInt()));
 
 
 	}
