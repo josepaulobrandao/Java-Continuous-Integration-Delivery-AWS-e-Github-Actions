@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ListTest" project="02_mockito" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="io.github.josepaulo.mockito.business.ListTest" time="2.77" displayname="ListTest" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.ListTest]">
-    <testcase name="testMockkingList_when_SizeIsCalled_shouldReturn10" classname="io.github.josepaulo.mockito.business.ListTest" time="2.77" displayname="Display Name" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.ListTest]/[method:testMockkingList_when_SizeIsCalled_shouldReturn10()]"/>
-  </testsuite>
-</testrun>

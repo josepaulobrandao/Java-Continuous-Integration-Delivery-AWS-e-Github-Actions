@@ -16,4 +16,10 @@
     <fullyQualifiedTypeName name="io.github.josepaulo.mockito.test.CourseServiceStub"/>
     <fullyQualifiedTypeName name="io.github.josepaulo.mockito.business.CourseBusiness"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.mockito.BDDMockito"/>
+    <fullyQualifiedTypeName name="org.mockito.hamcrest.MockitoHamcrest"/>
+    <fullyQualifiedTypeName name="org.hamcrest.MatcherAssert"/>
 </qualifiedTypeNameHistroy>
