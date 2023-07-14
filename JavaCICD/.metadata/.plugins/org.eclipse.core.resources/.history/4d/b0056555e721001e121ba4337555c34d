@@ -1,0 +1,7 @@
+package io.github.josepaulo.mockito.test;
+
+import io.github.josepaulo.mockito.service.CourceService;
+
+public class CourseServiceStub implements CourceService{
+
+}

@@ -1,0 +1,30 @@
+package io.github.josepaulo.mockito.business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import io.github.josepaulo.mockito.service.CourseService;
+
+//CourseBusiness =  SUT - System (Method) Under Test
+public class CourseBusiness {
+
+	// CourceService
+	private CourseService courceService;
+
+	public CourseBusiness(CourseService courceService) {
+		this.courceService = courceService;
+	}
+	
+	
+	public List<String> retriveCoursesRelatedToSpring(String student) {
+		var filteredCourses = new ArrayList<String>();
+		var allCourses = courceService.name(student);
+		for (String courses : allCourses) {
+			if(courses.contains("Spring")) {
+				filteredCourses.add(courses);
+			}
+		}
+		
+		return filteredCourses;
+	}
+}

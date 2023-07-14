@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ListTest.testMockkingList_when_GetIsCalled_shouldReturnErudio" project="02_mockito" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="io.github.josepaulo.mockito.business.ListTest" time="4.498" displayname="ListTest" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.ListTest]">
+    <testcase name="testMockkingList_when_GetIsCalled_shouldReturnErudio" classname="io.github.josepaulo.mockito.business.ListTest" time="4.498" displayname="Display Name" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.ListTest]/[method:testMockkingList_when_GetIsCalled_shouldReturnErudio()]"/>
+  </testsuite>
+</testrun>

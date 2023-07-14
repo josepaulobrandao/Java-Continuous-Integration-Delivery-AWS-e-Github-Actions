@@ -1,0 +1,5 @@
+package io.github.josepaulo.mockito;
+
+public class CourseBusiness {
+
+}

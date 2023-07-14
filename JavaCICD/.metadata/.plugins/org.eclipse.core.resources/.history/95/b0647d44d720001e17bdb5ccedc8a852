@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.josepaulotestes</groupId>
+	<artifactId>testes-automatizados</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<java.verson>19</java.verson>
+		<maven.compiler.target>19</maven.compiler.target>
+		<maven.compile.source>19</maven.compile.source>
+		
+		<maven.compile.plugin.version>19</maven.compile.plugin.version>
+	</properties>
+</project>

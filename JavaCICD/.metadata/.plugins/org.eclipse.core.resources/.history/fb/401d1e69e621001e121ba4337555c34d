@@ -1,0 +1,10 @@
+package io.github.josepaulo.mockito;
+
+import io.github.josepaulo.mockito.service.CourceService;
+
+//CourseBusiness =  SUT - System (Method) Under Test
+public class CourseBusiness {
+
+	//
+	private CourceService courceService;
+}

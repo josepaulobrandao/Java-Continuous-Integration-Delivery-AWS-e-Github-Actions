@@ -1,0 +1,14 @@
+package io.github.josepaulo.mockito.test;
+
+import java.util.List;
+
+import io.github.josepaulo.mockito.service.CourceService;
+
+public class CourseServiceStub implements CourceService{
+
+	@Override
+	public List<String> name(String student) {
+		return null;
+	}
+
+}
