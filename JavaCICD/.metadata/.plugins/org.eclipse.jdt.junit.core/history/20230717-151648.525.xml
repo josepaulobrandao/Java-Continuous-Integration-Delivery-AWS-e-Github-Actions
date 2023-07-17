@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CourseBusinessMockWhitBDDTest" project="02_mockito" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="io.github.josepaulo.mockito.business.CourseBusinessMockWhitBDDTest" time="4.2" displayname="CourseBusinessMockWhitBDDTest" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.CourseBusinessMockWhitBDDTest]">
+    <testcase name="testCoursesRelatedToSpring_When_UsingAStub" classname="io.github.josepaulo.mockito.business.CourseBusinessMockWhitBDDTest" time="4.073" displayname="testCoursesRelatedToSpring_When_UsingAStub()" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.CourseBusinessMockWhitBDDTest]/[method:testCoursesRelatedToSpring_When_UsingAStub()]"/>
+    <testcase name="testCoursesRelatedToSpring_When_UsingAFooBarStudent" classname="io.github.josepaulo.mockito.business.CourseBusinessMockWhitBDDTest" time="0.117" displayname="testCoursesRelatedToSpring_When_UsingAFooBarStudent()" uniqueid="[engine:junit-jupiter]/[class:io.github.josepaulo.mockito.business.CourseBusinessMockWhitBDDTest]/[method:testCoursesRelatedToSpring_When_UsingAFooBarStudent()]"/>
+  </testsuite>
+</testrun>

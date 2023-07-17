@@ -3501,3 +3501,1307 @@ java.util.concurrent.TimeoutException
 !ENTRY org.eclipse.lsp4e 1 0 2023-07-14 18:03:26.861
 !MESSAGE [Info]	2023-07-14T18:03:26-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/CourseBusinessMockWhitBDDTest.java"}}
 
+!SESSION 2023-07-17 15:05:20.136 -----------------------------------------------
+eclipse.buildId=4.17.2.202301310704
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-17 15:05:27.787
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-17 15:05:40.974
+!MESSAGE Logback config file: C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-17 15:06:35.181
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-17 15:06:35.182
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-17 15:06:35.182
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-17 15:07:01.742
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre\bin\javaw.exe
+-cp
+C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1689617221741
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:07:01.744
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-17 15:07:01.806
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11920
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-17 15:07:01.978
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:288)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-17 15:07:12.332
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jose.brandao.AMERICANAS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-17 15:07:20.890
+!MESSAGE LS: Checking for needed download
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-17 15:07:20.894
+!MESSAGE LS: Expecting file at C:\Users\jose.brandao.AMERICANAS\AppData\Local\Snyk\snyk-ls.exe
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-17 15:07:20.896
+!MESSAGE LS: File already exists, checking for age C:\Users\jose.brandao.AMERICANAS\AppData\Local\Snyk\snyk-ls.exe
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-17 15:07:20.906
+!MESSAGE LS: Needs update? false. Required LSP version=10, actual version=10
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:34.794
+!MESSAGE [Info]	2023-07-17T15:07:33-03:00 INF snyk-cli: 1.1152.0 (C:\Users\jose.brandao.AMERICANAS\AppData\Local\snyk-ls\snyk-win.exe)
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:34.804
+!MESSAGE [Info]	2023-07-17T15:07:33-03:00 INF Starting up...
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.883
+!MESSAGE [Info]	2023-07-17T15:07:34-03:00 INF RECEIVING method=initializeHandler params={"capabilities":{"textDocument":{"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dynamicRegistration":true},"colorProvider":{},"completion":{"completionItem":{"documentationFormat":["markdown","plaintext"],"snippetSupport":true},"completionItemKind":{}},"definition":{"linkSupport":true},"documentLink":{},"documentSymbol":{"hierarchicalDocumentSymbolSupport":true,"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]}},"foldingRange":{},"formatting":{"dynamicRegistration":true},"hover":{"contentFormat":["markdown","plaintext"]},"rangeFormatting":{},"rename":{"prepareSupport":true},"signatureHelp":{"signatureInformation":{"parameterInformation":{}}},"synchronization":{"didSave":true,"willSave":true,"willSaveWaitUntil":true},"typeDefinition":{"linkSupport":true}},"window":{"workDoneProgress":true},"workspace":{"applyEdit":true,"codeLens":{},"configuration":true,"executeCommand":{"dynamicRegistration":true},"inlineValue":{},"symbol":{"symbolKind":{}},"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"]},"workspaceFolders":true}},"clientInfo":{"name":"Spring Tool Suite 4","version":"0.16.0.202303141217"},"initializationOptions":{"activateSnykCode":"false","activateSnykIac":"false","activateSnykOpenSource":"true","additionalParams":"--all-projects","automaticAuthentication":"false","cliPath":"C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\ide\\snyk-win.exe","enableTelemetry":"false","enableTrustedFoldersFeature":"true","filterSeverity":{},"insecure":"true","integrationName":"ECLIPSE","integrationVersion":"2.1.0.202306270904","manageBinariesAutomatically":"true","osArch":"amd64","osPlatform":"Windows 10","runtimeName":"OpenJDK Runtime Environment","runtimeVersion":"17.0.6+10","sendErrorReports":"false","token":"bdfa7c17-2739-4270-b61e-ea6307422e1b","trustedFolders":["C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\applications\\emails\\bhd-mail-reader\\","C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\applications\\api\\bhd_api\\","C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\applications\\emails\\bhd-send-mail\\"]},"processId":1932,"rootPath":"/C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/","rootUri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/","trace":"off","workspaceFolders":[{"name":"02_mockito","uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/"}]}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.885
+!MESSAGE [Info]	2023-07-17T15:07:34-03:00 INF registered notifier method=registerNotifier
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.887
+!MESSAGE [Info]	2023-07-17T15:07:34-03:00 INF Token is not an OAuth token, setting token authentication in GAF
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.888
+!MESSAGE [Info]	2023-07-17T15:07:34-03:00 INF Adding workspaceFolder {file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/ 02_mockito} method=addWorkspaceFolders
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.986
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF snyk-ls: 20230712.111053 (C:\Users\jose.brandao.AMERICANAS\AppData\Local\Snyk\snyk-ls.exe)
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.987
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF platform: windows/amd64
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.988
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF http_proxy: 
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.989
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF no_proxy: localhost,127.0.0.1
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:35.990
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF IDE: Spring Tool Suite 4/0.16.0.202303141217
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:36.003
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF snyk-plugin: ECLIPSE/2.1.0.202306270904
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:36.005
+!MESSAGE [Info]	2023-07-17T15:07:35-03:00 INF https_proxy: 
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:36.055
+!MESSAGE [Info]	2023-07-17T15:07:36-03:00 INF sending cli path method=registerNotifier
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:36.962
+!MESSAGE [Info]	2023-07-17T15:07:36-03:00 INF Skipping authentication - user is already authenticated method=auth.initializer.init
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:37.627
+!MESSAGE [Info]	2023-07-17T15:07:37-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\CourseBusinessMockWhitBDDTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:37.636
+!MESSAGE [Info]	2023-07-17T15:07:37-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:37.640
+!MESSAGE [Info]	2023-07-17T15:07:37-03:00 INF RECEIVING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:37.646
+!MESSAGE [Info]	2023-07-17T15:07:37-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:07:37.656
+!MESSAGE [Info]	2023-07-17T15:07:37-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.154
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF SENDING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.157
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.164
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.166
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.167
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.168
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.169
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.170
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:16:14.176
+!MESSAGE [Info]	2023-07-17T15:16:14-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:21.143
+!MESSAGE [Info]	2023-07-17T15:17:21-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:21.144
+!MESSAGE [Info]	2023-07-17T15:17:21-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:21.160
+!MESSAGE [Info]	2023-07-17T15:17:21-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:21.162
+!MESSAGE [Info]	2023-07-17T15:17:21-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:21.343
+!MESSAGE [Info]	2023-07-17T15:17:21-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:22.178
+!MESSAGE [Info]	2023-07-17T15:17:22-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:22.179
+!MESSAGE [Info]	2023-07-17T15:17:22-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:31.196
+!MESSAGE [Info]	2023-07-17T15:17:31-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":28,"line":39},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:34.972
+!MESSAGE [Info]	2023-07-17T15:17:34-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":2,"line":35},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:53.966
+!MESSAGE [Info]	2023-07-17T15:17:53-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":12,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:55.546
+!MESSAGE [Info]	2023-07-17T15:17:55-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":6,"line":58},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:17:57.485
+!MESSAGE [Info]	2023-07-17T15:17:57-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":6,"line":58},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:03.670
+!MESSAGE [Info]	2023-07-17T15:18:03-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":16,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:05.348
+!MESSAGE [Info]	2023-07-17T15:18:05-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":59,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:10.866
+!MESSAGE [Info]	2023-07-17T15:18:10-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":52,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:19.022
+!MESSAGE [Info]	2023-07-17T15:18:19-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":22,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:26.014
+!MESSAGE [Info]	2023-07-17T15:18:26-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":15,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:28.691
+!MESSAGE [Info]	2023-07-17T15:18:28-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":14,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:32.747
+!MESSAGE [Info]	2023-07-17T15:18:32-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":20,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:33.196
+!MESSAGE [Info]	2023-07-17T15:18:33-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:33.197
+!MESSAGE [Info]	2023-07-17T15:18:33-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:33.784
+!MESSAGE [Info]	2023-07-17T15:18:33-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:33.939
+!MESSAGE [Info]	2023-07-17T15:18:33-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:33.940
+!MESSAGE [Info]	2023-07-17T15:18:33-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:33.943
+!MESSAGE [Info]	2023-07-17T15:18:33-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:18:36.327
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:36.375
+!MESSAGE [Info]	2023-07-17T15:18:36-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:36.378
+!MESSAGE [Info]	2023-07-17T15:18:36-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:36.385
+!MESSAGE [Info]	2023-07-17T15:18:36-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:36.386
+!MESSAGE [Info]	2023-07-17T15:18:36-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:36.900
+!MESSAGE [Info]	2023-07-17T15:18:36-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:36.901
+!MESSAGE [Info]	2023-07-17T15:18:36-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:18:37.748
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:18:37.770
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:39.981
+!MESSAGE [Info]	2023-07-17T15:18:39-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:39.982
+!MESSAGE [Info]	2023-07-17T15:18:39-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.089
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.090
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.183
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.283
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.284
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.288
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:18:50.704
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:18:50.717
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:18:50.778
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.955
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.956
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.957
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:50.958
+!MESSAGE [Info]	2023-07-17T15:18:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:51.177
+!MESSAGE [Info]	2023-07-17T15:18:51-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:51.179
+!MESSAGE [Info]	2023-07-17T15:18:51-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:52.844
+!MESSAGE [Info]	2023-07-17T15:18:52-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:18:58.222
+!MESSAGE [Info]	2023-07-17T15:18:58-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":41,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:19:29.407
+!MESSAGE [Info]	2023-07-17T15:19:29-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":2,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:20:14.054
+!MESSAGE [Info]	2023-07-17T15:20:14-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:20:19.405
+!MESSAGE [Info]	2023-07-17T15:20:19-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:20:59.285
+!MESSAGE [Info]	2023-07-17T15:20:59-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":70,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:03.423
+!MESSAGE [Info]	2023-07-17T15:21:03-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:05.521
+!MESSAGE [Info]	2023-07-17T15:21:05-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":30,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:12.856
+!MESSAGE [Info]	2023-07-17T15:21:12-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":19,"line":63},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:24.453
+!MESSAGE [Info]	2023-07-17T15:21:24-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":33,"line":65},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:44.705
+!MESSAGE [Info]	2023-07-17T15:21:44-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":41,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:46.580
+!MESSAGE [Info]	2023-07-17T15:21:46-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:48.430
+!MESSAGE [Info]	2023-07-17T15:21:48-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":16,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:21:56.467
+!MESSAGE [Info]	2023-07-17T15:21:56-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":19,"line":65},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:17.752
+!MESSAGE [Info]	2023-07-17T15:22:17-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":47,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:25.365
+!MESSAGE [Info]	2023-07-17T15:22:25-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":45,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:26.689
+!MESSAGE [Info]	2023-07-17T15:22:26-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":33,"line":65},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:36.176
+!MESSAGE [Info]	2023-07-17T15:22:36-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:36.177
+!MESSAGE [Info]	2023-07-17T15:22:36-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:38.039
+!MESSAGE [Info]	2023-07-17T15:22:38-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:38.040
+!MESSAGE [Info]	2023-07-17T15:22:38-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:22:42.897
+!MESSAGE [Info]	2023-07-17T15:22:42-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":2,"line":66},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:02.780
+!MESSAGE [Info]	2023-07-17T15:23:02-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":21,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:04.102
+!MESSAGE [Info]	2023-07-17T15:23:04-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":2,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:10.140
+!MESSAGE [Info]	2023-07-17T15:23:10-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":55,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:11.081
+!MESSAGE [Info]	2023-07-17T15:23:11-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":56,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:15.466
+!MESSAGE [Info]	2023-07-17T15:23:15-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":64,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:21.506
+!MESSAGE [Info]	2023-07-17T15:23:21-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":2,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:25.174
+!MESSAGE [Info]	2023-07-17T15:23:25-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":58,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:33.455
+!MESSAGE [Info]	2023-07-17T15:23:33-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":7,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:35.937
+!MESSAGE [Info]	2023-07-17T15:23:35-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":7,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:37.818
+!MESSAGE [Info]	2023-07-17T15:23:37-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:37.820
+!MESSAGE [Info]	2023-07-17T15:23:37-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:40.784
+!MESSAGE [Info]	2023-07-17T15:23:40-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:40.792
+!MESSAGE [Info]	2023-07-17T15:23:40-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:41.446
+!MESSAGE [Info]	2023-07-17T15:23:41-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:41.515
+!MESSAGE [Info]	2023-07-17T15:23:41-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:41.520
+!MESSAGE [Info]	2023-07-17T15:23:41-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:41.523
+!MESSAGE [Info]	2023-07-17T15:23:41-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:41.936
+!MESSAGE [Info]	2023-07-17T15:23:41-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:41.938
+!MESSAGE [Info]	2023-07-17T15:23:41-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:23:43.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:23:43.385
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:23:43.458
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:43.548
+!MESSAGE [Info]	2023-07-17T15:23:43-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:43.550
+!MESSAGE [Info]	2023-07-17T15:23:43-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:43.553
+!MESSAGE [Info]	2023-07-17T15:23:43-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:43.554
+!MESSAGE [Info]	2023-07-17T15:23:43-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:43.795
+!MESSAGE [Info]	2023-07-17T15:23:43-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:43.796
+!MESSAGE [Info]	2023-07-17T15:23:43-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:23:57.977
+!MESSAGE [Info]	2023-07-17T15:23:57-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":10,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:23.701
+!MESSAGE [Info]	2023-07-17T15:37:23-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":24,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:26.142
+!MESSAGE [Info]	2023-07-17T15:37:26-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":15,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:28.131
+!MESSAGE [Info]	2023-07-17T15:37:28-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":58,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:29.467
+!MESSAGE [Info]	2023-07-17T15:37:29-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":59,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:30.752
+!MESSAGE [Info]	2023-07-17T15:37:30-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":41,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:35.605
+!MESSAGE [Info]	2023-07-17T15:37:35-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":47,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:40.138
+!MESSAGE [Info]	2023-07-17T15:37:40-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":62,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:42.038
+!MESSAGE [Info]	2023-07-17T15:37:42-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":56,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:37:44.600
+!MESSAGE [Info]	2023-07-17T15:37:44-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":55,"line":64},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:39:31.612
+!MESSAGE [Info]	2023-07-17T15:39:31-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":40,"line":52},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:24.318
+!MESSAGE [Info]	2023-07-17T15:40:24-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:25.105
+!MESSAGE [Info]	2023-07-17T15:40:25-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:25.107
+!MESSAGE [Info]	2023-07-17T15:40:25-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:30.577
+!MESSAGE [Info]	2023-07-17T15:40:30-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:30.581
+!MESSAGE [Info]	2023-07-17T15:40:30-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:32.436
+!MESSAGE [Info]	2023-07-17T15:40:32-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:32.437
+!MESSAGE [Info]	2023-07-17T15:40:32-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:57.138
+!MESSAGE [Info]	2023-07-17T15:40:57-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:57.140
+!MESSAGE [Info]	2023-07-17T15:40:57-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:58.882
+!MESSAGE [Info]	2023-07-17T15:40:58-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:40:58.883
+!MESSAGE [Info]	2023-07-17T15:40:58-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:10.784
+!MESSAGE [Info]	2023-07-17T15:41:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:10.789
+!MESSAGE [Info]	2023-07-17T15:41:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:15.880
+!MESSAGE [Info]	2023-07-17T15:41:15-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:15.982
+!MESSAGE [Info]	2023-07-17T15:41:15-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:15.983
+!MESSAGE [Info]	2023-07-17T15:41:15-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:15.984
+!MESSAGE [Info]	2023-07-17T15:41:15-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:41:16.331
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:41:16.337
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:41:16.381
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:16.484
+!MESSAGE [Info]	2023-07-17T15:41:16-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:16.485
+!MESSAGE [Info]	2023-07-17T15:41:16-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:16.486
+!MESSAGE [Info]	2023-07-17T15:41:16-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:16.487
+!MESSAGE [Info]	2023-07-17T15:41:16-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:16.902
+!MESSAGE [Info]	2023-07-17T15:41:16-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:16.903
+!MESSAGE [Info]	2023-07-17T15:41:16-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:41:20.527
+!MESSAGE [Info]	2023-07-17T15:41:20-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:57:39.432
+!MESSAGE [Info]	2023-07-17T15:57:39-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":27,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:25.816
+!MESSAGE [Info]	2023-07-17T15:59:25-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:25.821
+!MESSAGE [Info]	2023-07-17T15:59:25-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:25.826
+!MESSAGE [Info]	2023-07-17T15:59:25-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:25.944
+!MESSAGE [Info]	2023-07-17T15:59:25-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:25.947
+!MESSAGE [Info]	2023-07-17T15:59:25-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:27.914
+!MESSAGE [Info]	2023-07-17T15:59:27-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":36,"line":61},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:59:28.111
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:59:28.283
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:59:28.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:28.376
+!MESSAGE [Info]	2023-07-17T15:59:28-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:28.378
+!MESSAGE [Info]	2023-07-17T15:59:28-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:28.379
+!MESSAGE [Info]	2023-07-17T15:59:28-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:28.380
+!MESSAGE [Info]	2023-07-17T15:59:28-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:28.715
+!MESSAGE [Info]	2023-07-17T15:59:28-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:28.718
+!MESSAGE [Info]	2023-07-17T15:59:28-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.078
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.114
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.117
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.121
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:59:38.439
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 15:59:38.447
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 15:59:38.489
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.792
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.793
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.797
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.800
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.851
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.852
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.852
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:38.853
+!MESSAGE [Info]	2023-07-17T15:59:38-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:44.246
+!MESSAGE [Info]	2023-07-17T15:59:44-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":22,"line":0},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:45.167
+!MESSAGE [Info]	2023-07-17T15:59:45-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:45.168
+!MESSAGE [Info]	2023-07-17T15:59:45-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:47.479
+!MESSAGE [Info]	2023-07-17T15:59:47-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:47.480
+!MESSAGE [Info]	2023-07-17T15:59:47-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 15:59:59.865
+!MESSAGE [Info]	2023-07-17T15:59:59-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":32,"line":4},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-17 15:59:59.943
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:00.008
+!MESSAGE [Info]	2023-07-17T16:00:00-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:00.009
+!MESSAGE [Info]	2023-07-17T16:00:00-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:00.976
+!MESSAGE [Info]	2023-07-17T16:00:00-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.043
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.045
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.047
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:01.333
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:01.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 16:00:01.390
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.706
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.707
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.708
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.709
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.711
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.712
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.714
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:01.718
+!MESSAGE [Info]	2023-07-17T16:00:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:11.102
+!MESSAGE [Info]	2023-07-17T16:00:11-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":2,"line":40},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:14.506
+!MESSAGE [Info]	2023-07-17T16:00:14-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:14.513
+!MESSAGE [Info]	2023-07-17T16:00:14-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:17.718
+!MESSAGE [Info]	2023-07-17T16:00:17-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:17.723
+!MESSAGE [Info]	2023-07-17T16:00:17-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:19.431
+!MESSAGE [Info]	2023-07-17T16:00:19-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:19.432
+!MESSAGE [Info]	2023-07-17T16:00:19-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:21.350
+!MESSAGE [Info]	2023-07-17T16:00:21-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:21.443
+!MESSAGE [Info]	2023-07-17T16:00:21-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:21.444
+!MESSAGE [Info]	2023-07-17T16:00:21-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:21.446
+!MESSAGE [Info]	2023-07-17T16:00:21-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:21.749
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:21.759
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 16:00:21.792
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:22.153
+!MESSAGE [Info]	2023-07-17T16:00:22-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:22.154
+!MESSAGE [Info]	2023-07-17T16:00:22-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:22.156
+!MESSAGE [Info]	2023-07-17T16:00:22-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:22.157
+!MESSAGE [Info]	2023-07-17T16:00:22-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:22.165
+!MESSAGE [Info]	2023-07-17T16:00:22-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:22.166
+!MESSAGE [Info]	2023-07-17T16:00:22-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:25.248
+!MESSAGE [Info]	2023-07-17T16:00:25-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":13,"line":60},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:48.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:48.882
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 16:00:48.918
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:48.992
+!MESSAGE [Info]	2023-07-17T16:00:48-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:48.993
+!MESSAGE [Info]	2023-07-17T16:00:48-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:48.995
+!MESSAGE [Info]	2023-07-17T16:00:48-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:48.995
+!MESSAGE [Info]	2023-07-17T16:00:48-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:49.193
+!MESSAGE [Info]	2023-07-17T16:00:49-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":50,"line":63},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:49.306
+!MESSAGE [Info]	2023-07-17T16:00:49-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:49.308
+!MESSAGE [Info]	2023-07-17T16:00:49-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.362
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListWithBDDTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.363
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.364
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.365
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.366
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.948
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:50.949
+!MESSAGE [Info]	2023-07-17T16:00:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.120
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.122
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.567
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.648
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.649
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListWithBDDTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.651
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:53.808
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:00:53.814
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 16:00:53.851
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.909
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.910
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.911
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.912
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.914
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:53.914
+!MESSAGE [Info]	2023-07-17T16:00:53-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:54.200
+!MESSAGE [Info]	2023-07-17T16:00:54-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:54.201
+!MESSAGE [Info]	2023-07-17T16:00:54-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:58.438
+!MESSAGE [Info]	2023-07-17T16:00:58-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:00:58.439
+!MESSAGE [Info]	2023-07-17T16:00:58-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:08.614
+!MESSAGE [Info]	2023-07-17T16:01:08-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:08.615
+!MESSAGE [Info]	2023-07-17T16:01:08-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:08.933
+!MESSAGE [Info]	2023-07-17T16:01:08-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":36,"line":4},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.253
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.282
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.283
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\02_mockito\\src\\test\\java\\io\\github\\josepaulo\\mockito\\business\\ListWithBDDTest.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.285
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.630
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.631
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:01:09.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-17 16:01:09.801
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-17 16:01:09.841
+!MESSAGE Classpath changed for project: 02_mockito
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.919
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.920
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.921
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.924
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.925
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:09.926
+!MESSAGE [Info]	2023-07-17T16:01:09-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:10.198
+!MESSAGE [Info]	2023-07-17T16:01:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:01:10.199
+!MESSAGE [Info]	2023-07-17T16:01:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:04:40.527
+!MESSAGE [Info]	2023-07-17T16:04:40-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":77},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:05:02.125
+!MESSAGE [Info]	2023-07-17T16:05:02-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":31,"line":76},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-17 16:05:04.103
+!MESSAGE [Info]	2023-07-17T16:05:04-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":38,"line":80},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/02_mockito/src/test/java/io/github/josepaulo/mockito/business/ListWithBDDTest.java"}}
+
