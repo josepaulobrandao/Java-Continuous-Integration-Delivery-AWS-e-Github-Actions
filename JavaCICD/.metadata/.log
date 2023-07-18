@@ -4408,3 +4408,1076 @@ java.util.concurrent.TimeoutException
 !ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:25:39.706
 !MESSAGE [Info]	2023-07-18T15:25:39-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":33,"line":122},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
 
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:36.887
+!MESSAGE [Info]	2023-07-18T15:32:36-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:36.889
+!MESSAGE [Info]	2023-07-18T15:32:36-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:37.875
+!MESSAGE [Info]	2023-07-18T15:32:37-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:37.876
+!MESSAGE [Info]	2023-07-18T15:32:37-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:41.695
+!MESSAGE [Info]	2023-07-18T15:32:41-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:41.697
+!MESSAGE [Info]	2023-07-18T15:32:41-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:42.768
+!MESSAGE [Info]	2023-07-18T15:32:42-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:42.769
+!MESSAGE [Info]	2023-07-18T15:32:42-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:50.742
+!MESSAGE [Info]	2023-07-18T15:32:50-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:32:50.744
+!MESSAGE [Info]	2023-07-18T15:32:50-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:34.589
+!MESSAGE [Info]	2023-07-18T15:35:34-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:35.047
+!MESSAGE [Info]	2023-07-18T15:35:35-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/model/Person.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:35.162
+!MESSAGE [Info]	2023-07-18T15:35:35-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:35:35.384
+!MESSAGE Classpath changed for project: 04_rest-test-repository-layer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:35:35.386
+!MESSAGE Boot project REMOVED: 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.200
+!MESSAGE Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.201
+!MESSAGE Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.204
+!MESSAGE Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.204
+!MESSAGE Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:36.288
+!MESSAGE [Info]	2023-07-18T15:35:36-03:00 INF RECEIVING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:36.289
+!MESSAGE [Info]	2023-07-18T15:35:36-03:00 INF SENDING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.301
+!MESSAGE Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.302
+!MESSAGE Launch configuration PersonRepositoryTest references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.304
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.304
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.305
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.306
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.325
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.325
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenSave_thenReturnSavedPerson references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.327
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.327
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.329
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.329
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.370
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.370
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenPersonObject_whenDelete_thenRemovePerson references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.372
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.372
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.374
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.374
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.394
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.395
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByJPQLNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.396
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.396
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.398
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.398
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-07-18 15:35:36.416
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2023-07-18 15:35:36.417
+!MESSAGE Launch configuration PersonRepositoryTest.testGivenFirstNameAndLastName_whenFindByNativeSQLwithNamedParameters_thenReturnPersonObject references closed project 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 15:35:45.397
+!MESSAGE LanguageServer not initialized within 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:823)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:300)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:556)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:316)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:403)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:152)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:129)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:35:47.482
+!MESSAGE Classpath changed for project: 05_rest-sevice-layer
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:47.639
+!MESSAGE [Info]	2023-07-18T15:35:47-03:00 INF RECEIVING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:47.640
+!MESSAGE [Info]	2023-07-18T15:35:47-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:47.641
+!MESSAGE [Info]	2023-07-18T15:35:47-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:49.066
+!MESSAGE [Info]	2023-07-18T15:35:49-03:00 INF SENDING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 15:35:55.399
+!MESSAGE LanguageServer not initialized within 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:823)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:300)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:556)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:316)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:403)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:152)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:129)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:35:56.291
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:36:02.060
+!MESSAGE Classpath changed for project: 05_rest-sevice-layer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:36:02.061
+!MESSAGE Boot project ADDED: 05_rest-sevice-layer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:36:04.382
+!MESSAGE Classpath changed for project: 05_rest-sevice-layer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:36:06.129
+!MESSAGE Classpath changed for project: 05_rest-sevice-layer
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:09.695
+!MESSAGE [Info]	2023-07-18T15:36:09-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\test\\resources\\application.yml" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:09.698
+!MESSAGE [Info]	2023-07-18T15:36:09-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:09.700
+!MESSAGE [Info]	2023-07-18T15:36:09-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 15:36:10.493
+!MESSAGE LanguageServer not initialized within 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:823)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:300)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:556)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:316)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:403)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:152)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:129)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:10.938
+!MESSAGE [Info]	2023-07-18T15:36:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:10.939
+!MESSAGE [Info]	2023-07-18T15:36:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:11.685
+!MESSAGE [Info]	2023-07-18T15:36:11-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/resources/application.yml"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.162
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\test\\java\\br\\com\\erudio\\repositories\\PersonRepositoryTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.163
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.165
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.183
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.184
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.608
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:16.609
+!MESSAGE [Info]	2023-07-18T15:36:16-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:18.661
+!MESSAGE [Info]	2023-07-18T15:36:18-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":39,"line":32},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:25.495
+!MESSAGE [Info]	2023-07-18T15:36:25-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.010
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\test\\java\\br\\com\\erudio\\services\\PersonServicesTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.011
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.012
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.042
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.044
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.525
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:36:35.526
+!MESSAGE [Info]	2023-07-18T15:36:35-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:54.986
+!MESSAGE [Info]	2023-07-18T15:48:54-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\main\\java\\br\\com\\erudio\\model\\Person.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:54.988
+!MESSAGE [Info]	2023-07-18T15:48:54-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:54.988
+!MESSAGE [Info]	2023-07-18T15:48:54-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:55.001
+!MESSAGE [Info]	2023-07-18T15:48:55-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:55.002
+!MESSAGE [Info]	2023-07-18T15:48:55-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:55.686
+!MESSAGE [Info]	2023-07-18T15:48:55-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:55.687
+!MESSAGE [Info]	2023-07-18T15:48:55-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:48:58.525
+!MESSAGE [Info]	2023-07-18T15:48:58-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/model/Person.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:04.522
+!MESSAGE [Info]	2023-07-18T15:49:04-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:04.528
+!MESSAGE [Info]	2023-07-18T15:49:04-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:04.529
+!MESSAGE [Info]	2023-07-18T15:49:04-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\main\\java\\br\\com\\erudio\\controllers\\PersonController.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:04.530
+!MESSAGE [Info]	2023-07-18T15:49:04-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:04.530
+!MESSAGE [Info]	2023-07-18T15:49:04-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:05.061
+!MESSAGE [Info]	2023-07-18T15:49:05-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:05.062
+!MESSAGE [Info]	2023-07-18T15:49:05-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:07.195
+!MESSAGE [Info]	2023-07-18T15:49:07-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/controllers/PersonController.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:10.369
+!MESSAGE [Info]	2023-07-18T15:49:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:10.370
+!MESSAGE [Info]	2023-07-18T15:49:10-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\test\\java\\br\\com\\erudio\\StartupTests.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:10.371
+!MESSAGE [Info]	2023-07-18T15:49:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:10.372
+!MESSAGE [Info]	2023-07-18T15:49:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:10.373
+!MESSAGE [Info]	2023-07-18T15:49:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:11.671
+!MESSAGE [Info]	2023-07-18T15:49:11-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:11.672
+!MESSAGE [Info]	2023-07-18T15:49:11-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:13.707
+!MESSAGE [Info]	2023-07-18T15:49:13-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/StartupTests.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:14.906
+!MESSAGE [Info]	2023-07-18T15:49:14-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":13,"line":44},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.743
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\main\\java\\br\\com\\erudio\\services\\PersonServices.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.744
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.745
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.746
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.747
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.981
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:26.982
+!MESSAGE [Info]	2023-07-18T15:49:26-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:49:27.153
+!MESSAGE [Info]	2023-07-18T15:49:27-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":23},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:17.709
+!MESSAGE [Info]	2023-07-18T15:51:17-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:17.710
+!MESSAGE [Info]	2023-07-18T15:51:17-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:18.859
+!MESSAGE [Info]	2023-07-18T15:51:18-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:18.908
+!MESSAGE [Info]	2023-07-18T15:51:18-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:18.910
+!MESSAGE [Info]	2023-07-18T15:51:18-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\main\\java\\br\\com\\erudio\\services\\PersonServices.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:18.912
+!MESSAGE [Info]	2023-07-18T15:51:18-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java method=registerNotifier source=LSP
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:20.372
+!MESSAGE [Info]	2023-07-18T15:51:20-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":43,"line":42},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:51:23.029
+!MESSAGE Classpath changed for project: 05_rest-sevice-layer
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:23.644
+!MESSAGE [Info]	2023-07-18T15:51:23-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:23.645
+!MESSAGE [Info]	2023-07-18T15:51:23-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:24.739
+!MESSAGE [Info]	2023-07-18T15:51:24-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":3,"line":33},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:27.986
+!MESSAGE [Info]	2023-07-18T15:51:27-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":26,"line":33},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:29.056
+!MESSAGE [Info]	2023-07-18T15:51:29-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:29.057
+!MESSAGE [Info]	2023-07-18T15:51:29-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:30.410
+!MESSAGE [Info]	2023-07-18T15:51:30-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:30.471
+!MESSAGE [Info]	2023-07-18T15:51:30-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:30.474
+!MESSAGE [Info]	2023-07-18T15:51:30-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\main\\java\\br\\com\\erudio\\services\\PersonServices.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:30.478
+!MESSAGE [Info]	2023-07-18T15:51:30-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java method=registerNotifier source=LSP
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:51:30.766
+!MESSAGE Classpath changed for project: 05_rest-sevice-layer
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:31.720
+!MESSAGE [Info]	2023-07-18T15:51:31-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:31.720
+!MESSAGE [Info]	2023-07-18T15:51:31-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:36.372
+!MESSAGE [Info]	2023-07-18T15:51:36-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":16,"line":41},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 15:51:42.337
+!MESSAGE LanguageServer not initialized within 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:823)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:300)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:556)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:316)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:403)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:152)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:129)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:43.007
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:43.139
+!MESSAGE [Info]	2023-07-18T15:51:43-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:43.140
+!MESSAGE [Info]	2023-07-18T15:51:43-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:43.141
+!MESSAGE [Info]	2023-07-18T15:51:43-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:43.142
+!MESSAGE [Info]	2023-07-18T15:51:43-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:46.604
+!MESSAGE [Info]	2023-07-18T15:51:46-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:46.605
+!MESSAGE [Info]	2023-07-18T15:51:46-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:46.606
+!MESSAGE [Info]	2023-07-18T15:51:46-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:46.607
+!MESSAGE [Info]	2023-07-18T15:51:46-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:56.715
+!MESSAGE [Info]	2023-07-18T15:51:56-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:51:56.716
+!MESSAGE [Info]	2023-07-18T15:51:56-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:52:09.992
+!MESSAGE [Info]	2023-07-18T15:52:09-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":37,"line":56},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:52:11.810
+!MESSAGE [Info]	2023-07-18T15:52:11-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":47,"line":56},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:52:12.859
+!MESSAGE [Info]	2023-07-18T15:52:12-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":48,"line":56},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:52:18.471
+!MESSAGE [Info]	2023-07-18T15:52:18-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":51,"line":56},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-18 15:52:18.529
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:52:23.400
+!MESSAGE [Info]	2023-07-18T15:52:23-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":79,"line":56},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:52:34.774
+!MESSAGE [Info]	2023-07-18T15:52:34-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":51,"line":57},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:53:28.446
+!MESSAGE [Info]	2023-07-18T15:53:28-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":51,"line":57},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:55:43.190
+!MESSAGE [Info]	2023-07-18T15:55:43-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":69},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:56:57.389
+!MESSAGE [Info]	2023-07-18T15:56:57-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":33,"line":39},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:57:05.652
+!MESSAGE [Info]	2023-07-18T15:57:05-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":12,"line":36},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:57:07.111
+!MESSAGE [Info]	2023-07-18T15:57:07-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":5,"line":35},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:57:20.079
+!MESSAGE [Info]	2023-07-18T15:57:20-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":12,"line":36},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:57:20.898
+!MESSAGE [Info]	2023-07-18T15:57:20-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":5,"line":35},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:57:22.716
+!MESSAGE [Info]	2023-07-18T15:57:22-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":5,"line":35},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.042
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.042
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.050
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.051
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.440
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.441
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.442
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:20.446
+!MESSAGE [Info]	2023-07-18T16:00:20-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:51.683
+!MESSAGE [Info]	2023-07-18T16:00:51-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":12,"line":29},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-18 16:00:51.775
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:00:56.937
+!MESSAGE [Info]	2023-07-18T16:00:56-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":12,"line":29},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:02:36.138
+!MESSAGE [Info]	2023-07-18T16:02:36-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":59,"line":67},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:05:13.844
+!MESSAGE [Info]	2023-07-18T16:05:13-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:05:14.041
+!MESSAGE [Info]	2023-07-18T16:05:14-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
