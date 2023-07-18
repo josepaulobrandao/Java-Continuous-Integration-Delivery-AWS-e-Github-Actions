@@ -1,6 +1,0 @@
-package io.github.josepaulo.mockito;
-
-//CourseBusiness =  SUT - System (Method) Under Test
-public class CourseBusiness {
-
-}

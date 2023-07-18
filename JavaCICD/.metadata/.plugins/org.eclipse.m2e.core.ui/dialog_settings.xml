@@ -44,12 +44,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="io.github.josepaulo.coverge"/>
 			<item value="io.github.josepaulo.mockito"/>
 			<item value="io.github.josepaulotestes"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="coverge-session"/>
 			<item value="mockito"/>
 			<item value="testes-automatizados"/>
 		</list>

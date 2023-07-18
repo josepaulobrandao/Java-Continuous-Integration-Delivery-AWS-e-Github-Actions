@@ -1,0 +1,15 @@
+io\github\josepaulo\mockito\mockito\staticwithparams\MyUtilsTest.class
+io\github\josepaulo\mockito\business\ListTest.class
+io\github\josepaulo\mockito\business\CourseBusinessMockWithBDDTest.class
+io\github\josepaulo\mockito\mockito\constructor\PaymentProcessorTest.class
+io\github\josepaulo\mockito\mockito\constructor\CheckoutServiceTest.class
+io\github\josepaulo\mockito\business\ListWithBDDTest.class
+io\github\josepaulo\mockito\mockito\HamcrestMatchersTest.class
+io\github\josepaulo\mockito\mockito\CourseBusinessMockitoInjectMocksTest.class
+io\github\josepaulo\mockito\business\CourseBusinessStubTest.class
+io\github\josepaulo\mockito\mockito\constructor\PaymentProcessor.class
+io\github\josepaulo\mockito\mockito\SpyTest.class
+io\github\josepaulo\mockito\business\CourseBusinessMockTest.class
+io\github\josepaulo\mockito\service\stubs\CourseServiceStub.class
+io\github\josepaulo\mockito\mockito\constructor\CheckoutService.class
+io\github\josepaulo\mockito\mockito\services\OrderServiceTest.class

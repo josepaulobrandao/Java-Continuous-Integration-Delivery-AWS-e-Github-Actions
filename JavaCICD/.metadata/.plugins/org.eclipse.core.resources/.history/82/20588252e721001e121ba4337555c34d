@@ -1,5 +1,0 @@
-package io.github.josepaulo.mockito.test;
-
-public class CourseServiceStub {
-
-}

@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="org.mockito.BDDMockito"/>
     <fullyQualifiedTypeName name="org.mockito.hamcrest.MockitoHamcrest"/>
     <fullyQualifiedTypeName name="org.hamcrest.MatcherAssert"/>
+    <fullyQualifiedTypeName name="io.github.josepaulo.mockito.services.CourseService"/>
+    <fullyQualifiedTypeName name="io.github.josepaulo.mockito.services.Order"/>
 </qualifiedTypeNameHistroy>

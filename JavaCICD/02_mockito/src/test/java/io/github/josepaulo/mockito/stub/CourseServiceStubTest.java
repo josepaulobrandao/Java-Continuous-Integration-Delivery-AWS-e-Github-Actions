@@ -30,6 +30,12 @@ public class CourseServiceStubTest implements CourseService {
 		return null;
 	}
 
+	@Override
+	public void deleteCourse(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 
 }

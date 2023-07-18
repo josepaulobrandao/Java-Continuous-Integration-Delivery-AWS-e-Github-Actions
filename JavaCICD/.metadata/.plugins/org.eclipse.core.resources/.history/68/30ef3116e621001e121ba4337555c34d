@@ -1,8 +1,0 @@
-package io.github.josepaulo.mockito.service;
-
-import java.util.List;
-
-public interface CourceService {
-	public List<String> name(); 
-
-}
