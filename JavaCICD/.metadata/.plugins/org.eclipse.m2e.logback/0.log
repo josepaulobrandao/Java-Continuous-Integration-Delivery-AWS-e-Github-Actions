@@ -7476,3 +7476,22 @@ org.eclipse.core.runtime.CoreException: Launch configuration PersonRepositoryTes
 2023-07-18 15:51:30,688 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-07-18 15:51:30,699 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-07-18 15:51:30,702 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-18 17:33:42,134 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-18 17:52:51,654 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.erudio:rest-with-spring-boot-and-java-erudio:0.0.1-SNAPSHOT @ C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\06_testing-controllers\pom.xml.
+2023-07-18 17:53:02,744 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_testing-controllers/src/main/java
+2023-07-18 17:53:02,799 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_testing-controllers/src/main/resources
+2023-07-18 17:53:03,061 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_testing-controllers/src/main/resources
+2023-07-18 17:53:03,063 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_testing-controllers/src/test/java
+2023-07-18 17:53:03,064 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_testing-controllers/src/test/resources
+2023-07-18 17:53:05,310 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 29 sec
+2023-07-18 17:53:07,059 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-07-18 17:53:08,951 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.erudio:rest-with-spring-boot-and-java-erudio:0.0.1-SNAPSHOT @ C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\06_testing-controllers\pom.xml.
+2023-07-18 17:53:10,583 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_testing-controllers/src/main/java
+2023-07-18 17:53:10,596 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_testing-controllers/src/main/resources
+2023-07-18 17:53:10,619 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_testing-controllers/src/main/resources
+2023-07-18 17:53:10,620 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_testing-controllers/src/test/java
+2023-07-18 17:53:10,632 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_testing-controllers/src/test/resources
+2023-07-18 17:53:12,403 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 1,00 sec 
+2023-07-18 17:53:14,826 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-18 17:53:14,891 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-18 17:53:14,905 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource

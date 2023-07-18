@@ -73,6 +73,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\06_testing-controllers"/>
 			<item value="C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\05_rest-sevice-layer"/>
 			<item value="C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\04_rest-test-repository-layer"/>
 		</list>

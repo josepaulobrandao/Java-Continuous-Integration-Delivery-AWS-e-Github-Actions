@@ -5481,3 +5481,733 @@ java.lang.InterruptedException
 !ENTRY org.eclipse.lsp4e 1 0 2023-07-18 16:05:14.041
 !MESSAGE [Info]	2023-07-18T16:05:14-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
 
+!SESSION 2023-07-18 17:31:50.226 -----------------------------------------------
+eclipse.buildId=4.17.2.202301310704
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-18 17:32:02.311
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-18 17:32:25.989
+!MESSAGE Logback config file: C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\udemy\JavaCICD\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-18 17:33:00.039
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-18 17:33:00.039
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-18 17:33:00.039
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:33:23.582
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre\bin\javaw.exe
+-cp
+C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1689712403581
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:33:23.584
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:33:23.730
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14656
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 17:33:24.847
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:288)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-18 17:33:42.174
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jose.brandao.AMERICANAS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:33:42.809
+!MESSAGE Boot project ADDED: 05_rest-sevice-layer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:33:42.883
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:33:42.913
+!MESSAGE Started Boot LS process
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-18 17:33:48.887
+!MESSAGE LS: Checking for needed download
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-18 17:33:48.891
+!MESSAGE LS: Expecting file at C:\Users\jose.brandao.AMERICANAS\AppData\Local\Snyk\snyk-ls.exe
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-18 17:33:48.894
+!MESSAGE LS: File already exists, checking for age C:\Users\jose.brandao.AMERICANAS\AppData\Local\Snyk\snyk-ls.exe
+
+!ENTRY io.snyk.eclipse.plugin 1 0 2023-07-18 17:33:48.896
+!MESSAGE LS: Needs update? false. Required LSP version=10, actual version=10
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:09.889
+!MESSAGE [Info]	2023-07-18T17:34:08-03:00 INF snyk-cli: 1.1152.0 (C:\Users\jose.brandao.AMERICANAS\AppData\Local\snyk-ls\snyk-win.exe)
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:09.891
+!MESSAGE [Info]	2023-07-18T17:34:08-03:00 INF Starting up...
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:10.578
+!MESSAGE [Info]	2023-07-18T17:34:08-03:00 INF RECEIVING method=initializeHandler params={"capabilities":{"textDocument":{"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dynamicRegistration":true},"colorProvider":{},"completion":{"completionItem":{"documentationFormat":["markdown","plaintext"],"snippetSupport":true},"completionItemKind":{}},"definition":{"linkSupport":true},"documentLink":{},"documentSymbol":{"hierarchicalDocumentSymbolSupport":true,"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]}},"foldingRange":{},"formatting":{"dynamicRegistration":true},"hover":{"contentFormat":["markdown","plaintext"]},"rangeFormatting":{},"rename":{"prepareSupport":true},"signatureHelp":{"signatureInformation":{"parameterInformation":{}}},"synchronization":{"didSave":true,"willSave":true,"willSaveWaitUntil":true},"typeDefinition":{"linkSupport":true}},"window":{"workDoneProgress":true},"workspace":{"applyEdit":true,"codeLens":{},"configuration":true,"executeCommand":{"dynamicRegistration":true},"inlineValue":{},"symbol":{"symbolKind":{}},"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"]},"workspaceFolders":true}},"clientInfo":{"name":"Spring Tool Suite 4","version":"0.16.0.202303141217"},"initializationOptions":{"activateSnykCode":"false","activateSnykIac":"false","activateSnykOpenSource":"true","additionalParams":"--all-projects","automaticAuthentication":"false","cliPath":"C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\ide\\snyk-win.exe","enableTelemetry":"false","enableTrustedFoldersFeature":"true","filterSeverity":{},"insecure":"true","integrationName":"ECLIPSE","integrationVersion":"2.1.0.202306270904","manageBinariesAutomatically":"true","osArch":"amd64","osPlatform":"Windows 10","runtimeName":"OpenJDK Runtime Environment","runtimeVersion":"17.0.6+10","sendErrorReports":"false","token":"bdfa7c17-2739-4270-b61e-ea6307422e1b","trustedFolders":["C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\applications\\emails\\bhd-mail-reader\\","C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\applications\\api\\bhd_api\\","C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\applications\\emails\\bhd-send-mail\\"]},"processId":22040,"rootPath":"/C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/","rootUri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/","trace":"off","workspaceFolders":[{"name":"05_rest-sevice-layer","uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/"}]}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:10.579
+!MESSAGE [Info]	2023-07-18T17:34:08-03:00 INF Token is not an OAuth token, setting token authentication in GAF
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:10.580
+!MESSAGE [Info]	2023-07-18T17:34:08-03:00 INF registered notifier method=registerNotifier
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:10.582
+!MESSAGE [Info]	2023-07-18T17:34:08-03:00 INF Adding workspaceFolder {file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/ 05_rest-sevice-layer} method=addWorkspaceFolders
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.542
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF snyk-ls: 20230712.111053 (C:\Users\jose.brandao.AMERICANAS\AppData\Local\Snyk\snyk-ls.exe)
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.544
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF platform: windows/amd64
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.546
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF http_proxy: 
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.547
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF no_proxy: localhost,127.0.0.1
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.549
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF IDE: Spring Tool Suite 4/0.16.0.202303141217
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.552
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF snyk-plugin: ECLIPSE/2.1.0.202306270904
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.553
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF https_proxy: 
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:11.566
+!MESSAGE [Info]	2023-07-18T17:34:11-03:00 INF sending cli path method=registerNotifier
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:16.534
+!MESSAGE [Info]	2023-07-18T17:34:15-03:00 INF Skipping authentication - user is already authenticated method=auth.initializer.init
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:17.284
+!MESSAGE [Info]	2023-07-18T17:34:16-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:17.286
+!MESSAGE [Info]	2023-07-18T17:34:16-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:17.287
+!MESSAGE [Info]	2023-07-18T17:34:16-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:17.306
+!MESSAGE [Info]	2023-07-18T17:34:16-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\test\\java\\br\\com\\erudio\\services\\PersonServicesTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:34:17.597
+!MESSAGE [Info]	2023-07-18T17:34:16-03:00 INF RECEIVING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.389
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF SENDING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.390
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.392
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.398
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.400
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.401
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.402
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.403
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:37:05.404
+!MESSAGE [Info]	2023-07-18T17:37:05-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 17:51:28.460
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: O pipe está sendo fechado
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: O pipe está sendo fechado
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:443)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: O pipe está sendo fechado
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy12/jdk.proxy12.$Proxy36.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:441)
+	... 7 more
+Caused by: java.io.IOException: O pipe está sendo fechado
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:51:28.462
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre\bin\javaw.exe
+-cp
+C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\jose.brandao.AMERICANAS\Documentos\bhd\ide\tools\sts-4.17.2.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1689713488461
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:51:28.465
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:51:28.485
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:51:28.488
+!MESSAGE Stopped org.springframework.tooling.boot.ls LS process 14656
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:51:28.524
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1196
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 17:51:28.527
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:288)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-18 17:51:29.294
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-18 17:51:33.305
+!MESSAGE Could not detect hyperlinks due to timeout after 4 seconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.documentLink.DocumentLinkDetector.detectHyperlinks(DocumentLinkDetector.java:95)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:51:51.223
+!MESSAGE [Info]	2023-07-18T17:51:51-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:51:51.224
+!MESSAGE [Info]	2023-07-18T17:51:51-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:52:38.112
+!MESSAGE Classpath changed for project: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:52:38.130
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:52:38.134
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:38.284
+!MESSAGE [Info]	2023-07-18T17:52:38-03:00 INF RECEIVING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:38.285
+!MESSAGE [Info]	2023-07-18T17:52:38-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\06_testing-controllers\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:38.286
+!MESSAGE [Info]	2023-07-18T17:52:38-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:38.288
+!MESSAGE [Info]	2023-07-18T17:52:38-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\06_testing-controllers\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:38.289
+!MESSAGE [Info]	2023-07-18T17:52:38-03:00 INF Untrusted folder folder="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:39.891
+!MESSAGE [Info]	2023-07-18T17:52:39-03:00 INF SENDING method=WorkspaceDidChangeWorkspaceFoldersHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:39.904
+!MESSAGE [Info]	2023-07-18T17:52:39-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:39.906
+!MESSAGE [Info]	2023-07-18T17:52:39-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:52:40.130
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:52:40.131
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.145
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\05_rest-sevice-layer\\src\\main\\java\\br\\com\\erudio\\services\\PersonServices.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.146
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.147
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.148
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.149
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.598
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/05_rest-sevice-layer/src/test/java/br/com/erudio/services/PersonServicesTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.889
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 17:52:46.890
+!MESSAGE [Info]	2023-07-18T17:52:46-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:53:03.011
+!MESSAGE Classpath changed for project: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:53:03.099
+!MESSAGE Boot project ADDED: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:03.198
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:03.234
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:05.306
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:05.308
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:53:05.501
+!MESSAGE Classpath changed for project: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:05.596
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:05.620
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:05.656
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:05.718
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-18 17:53:06.835
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:07.654
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:07.695
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:10.200
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:10.205
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:53:11.500
+!MESSAGE Classpath changed for project: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:11.627
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:11.629
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:13.650
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:13.703
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:53:14.281
+!MESSAGE Classpath changed for project: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:14.470
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:14.471
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 17:53:15.959
+!MESSAGE Classpath changed for project: 06_testing-controllers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:16.158
+!MESSAGE executing callback sts4.classpath.CyuJtWvK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:16.160
+!MESSAGE No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.CyuJtWvK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:16.449
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:16.469
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-18 17:53:18.589
+!MESSAGE executing callback sts4.classpath.dxUKktqd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-18 17:53:18.591
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
