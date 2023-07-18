@@ -3808,3 +3808,603 @@ java.util.concurrent.TimeoutException
 !ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:14:28.855
 !MESSAGE [Info]	2023-07-18T11:14:28-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":46,"line":2},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/resources/application.yml"}}
 
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:04.425
+!MESSAGE [Info]	2023-07-18T11:17:04-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\test\\java\\br\\com\\erudio\\repositories\\PersonRepositoryTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:04.426
+!MESSAGE [Info]	2023-07-18T11:17:04-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:04.427
+!MESSAGE [Info]	2023-07-18T11:17:04-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:04.428
+!MESSAGE [Info]	2023-07-18T11:17:04-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:04.429
+!MESSAGE [Info]	2023-07-18T11:17:04-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:05.380
+!MESSAGE [Info]	2023-07-18T11:17:05-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:17:05.381
+!MESSAGE [Info]	2023-07-18T11:17:05-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:18:09.640
+!MESSAGE [Info]	2023-07-18T11:18:09-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":38},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:19:21.867
+!MESSAGE [Info]	2023-07-18T11:19:21-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":38},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:19:30.639
+!MESSAGE [Info]	2023-07-18T11:19:30-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":16,"line":28},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:20:03.779
+!MESSAGE [Info]	2023-07-18T11:20:03-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":33,"line":36},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:20:44.220
+!MESSAGE [Info]	2023-07-18T11:20:44-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":26,"line":32},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:20:47.654
+!MESSAGE [Info]	2023-07-18T11:20:47-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":31,"line":31},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:21:03.315
+!MESSAGE [Info]	2023-07-18T11:21:03-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":38},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:21:41.272
+!MESSAGE [Info]	2023-07-18T11:21:41-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":8,"line":47},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 11:22:28.266
+!MESSAGE [Info]	2023-07-18T11:22:28-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":6,"line":18},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:00:00.589
+!MESSAGE [Info]	2023-07-18T12:00:00-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":44,"line":59},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:00:10.203
+!MESSAGE [Info]	2023-07-18T12:00:10-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":14,"line":58},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:00:17.035
+!MESSAGE [Info]	2023-07-18T12:00:17-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":65},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:00:20.546
+!MESSAGE [Info]	2023-07-18T12:00:20-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":19,"line":65},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.070
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\repositories\\PersonRepository.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.072
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.073
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.099
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.100
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.572
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.572
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:05:10.872
+!MESSAGE [Info]	2023-07-18T12:05:10-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":11,"line":20},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:08:38.115
+!MESSAGE [Info]	2023-07-18T12:08:38-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":104},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:10:42.911
+!MESSAGE [Info]	2023-07-18T12:10:42-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":47,"line":114},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:11:54.076
+!MESSAGE [Info]	2023-07-18T12:11:54-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":47,"line":119},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:22:52.151
+!MESSAGE [Info]	2023-07-18T12:22:52-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":124},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:23:09.468
+!MESSAGE [Info]	2023-07-18T12:23:09-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":124},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:23:17.851
+!MESSAGE [Info]	2023-07-18T12:23:17-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":25,"line":132},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:23:19.019
+!MESSAGE [Info]	2023-07-18T12:23:19-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":24,"line":127},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:23:28.694
+!MESSAGE [Info]	2023-07-18T12:23:28-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":17,"line":134},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:23:36.647
+!MESSAGE [Info]	2023-07-18T12:23:36-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":41,"line":132},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:23:37.986
+!MESSAGE [Info]	2023-07-18T12:23:37-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":42,"line":132},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:26:48.109
+!MESSAGE [Info]	2023-07-18T12:26:48-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":140},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:27:26.365
+!MESSAGE [Info]	2023-07-18T12:27:26-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":29,"line":157},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:27:27.425
+!MESSAGE [Info]	2023-07-18T12:27:27-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":159},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:48:48.687
+!MESSAGE [Info]	2023-07-18T12:48:48-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":6,"line":18},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:54:14.041
+!MESSAGE [Info]	2023-07-18T12:54:14-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":11,"line":16},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 12:55:18.011
+!MESSAGE [Info]	2023-07-18T12:55:18-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":29},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:29.666
+!MESSAGE [Info]	2023-07-18T13:11:29-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":80,"line":29},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:48.639
+!MESSAGE [Info]	2023-07-18T13:11:48-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":11,"line":30},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:50.919
+!MESSAGE [Info]	2023-07-18T13:11:50-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/services/PersonServices.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.027
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/pom.xml"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.118
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/model/Person.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.152
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/exceptions/ResourceNotFoundException.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.185
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/exceptions/ExceptionResponse.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.250
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/controllers/PersonController.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.313
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/resources/application.yml"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.399
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/resources/application.yml"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.543
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:51.674
+!MESSAGE [Info]	2023-07-18T13:11:51-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.222
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\exceptions\\ExceptionResponse.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.224
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.225
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.238
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.239
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.627
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:54.628
+!MESSAGE [Info]	2023-07-18T13:11:54-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.100
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.101
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\exceptions\\ResourceNotFoundException.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.104
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.107
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.108
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.490
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:11:59.491
+!MESSAGE [Info]	2023-07-18T13:11:59-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:06.416
+!MESSAGE [Info]	2023-07-18T13:12:06-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\exceptions\\handler\\CustomizedResponseEntityExceptionHandler.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:06.424
+!MESSAGE [Info]	2023-07-18T13:12:06-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:06.431
+!MESSAGE [Info]	2023-07-18T13:12:06-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:06.460
+!MESSAGE [Info]	2023-07-18T13:12:06-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:06.466
+!MESSAGE [Info]	2023-07-18T13:12:06-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:07.008
+!MESSAGE [Info]	2023-07-18T13:12:07-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:07.010
+!MESSAGE [Info]	2023-07-18T13:12:07-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:12.810
+!MESSAGE [Info]	2023-07-18T13:12:12-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/exceptions/ExceptionResponse.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:12.873
+!MESSAGE [Info]	2023-07-18T13:12:12-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/exceptions/ResourceNotFoundException.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:12:12.988
+!MESSAGE [Info]	2023-07-18T13:12:12-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:35.549
+!MESSAGE [Info]	2023-07-18T13:15:35-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\test\\java\\br\\com\\erudio\\repositories\\PersonRepositoryTest.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:35.550
+!MESSAGE [Info]	2023-07-18T13:15:35-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:35.551
+!MESSAGE [Info]	2023-07-18T13:15:35-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:35.552
+!MESSAGE [Info]	2023-07-18T13:15:35-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:35.554
+!MESSAGE [Info]	2023-07-18T13:15:35-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:36.252
+!MESSAGE [Info]	2023-07-18T13:15:36-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:36.254
+!MESSAGE [Info]	2023-07-18T13:15:36-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:15:58.351
+!MESSAGE [Info]	2023-07-18T13:15:58-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":140},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:16:54.872
+!MESSAGE [Info]	2023-07-18T13:16:54-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":140},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:02.463
+!MESSAGE [Info]	2023-07-18T13:18:02-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":44,"line":153},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:45.699
+!MESSAGE [Info]	2023-07-18T13:18:45-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\repositories\\PersonRepository.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:45.701
+!MESSAGE [Info]	2023-07-18T13:18:45-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:45.703
+!MESSAGE [Info]	2023-07-18T13:18:45-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:45.705
+!MESSAGE [Info]	2023-07-18T13:18:45-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:45.706
+!MESSAGE [Info]	2023-07-18T13:18:45-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:46.012
+!MESSAGE [Info]	2023-07-18T13:18:46-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:18:46.013
+!MESSAGE [Info]	2023-07-18T13:18:46-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:19:01.764
+!MESSAGE [Info]	2023-07-18T13:19:01-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":14,"line":28},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:19:02.488
+!MESSAGE [Info]	2023-07-18T13:19:02-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":13,"line":31},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:23:58.893
+!MESSAGE [Info]	2023-07-18T13:23:58-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":25},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.207
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.209
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.209
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF Receiving documentURI="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\model\\Person.java" method=TextDocumentDidOpenHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.210
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.211
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.771
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:01.774
+!MESSAGE [Info]	2023-07-18T13:36:01-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:18.146
+!MESSAGE [Info]	2023-07-18T13:36:18-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:18.147
+!MESSAGE [Info]	2023-07-18T13:36:18-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:20.192
+!MESSAGE [Info]	2023-07-18T13:36:20-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:36:20.193
+!MESSAGE [Info]	2023-07-18T13:36:20-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:37:36.131
+!MESSAGE [Info]	2023-07-18T13:37:36-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":34,"line":22},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:54:25.178
+!MESSAGE [Info]	2023-07-18T13:54:25-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":45,"line":30},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:54:26.678
+!MESSAGE [Info]	2023-07-18T13:54:26-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":80,"line":29},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 13:54:36.006
+!MESSAGE [Info]	2023-07-18T13:54:36-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":66,"line":25},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:16:23.958
+!MESSAGE [Info]	2023-07-18T15:16:23-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":64,"line":29},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:14.047
+!MESSAGE [Info]	2023-07-18T15:18:14-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":11,"line":30},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:19.291
+!MESSAGE [Info]	2023-07-18T15:18:19-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:19.292
+!MESSAGE [Info]	2023-07-18T15:18:19-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:20.118
+!MESSAGE [Info]	2023-07-18T15:18:20-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:20.120
+!MESSAGE [Info]	2023-07-18T15:18:20-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:24.148
+!MESSAGE [Info]	2023-07-18T15:18:24-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:24.150
+!MESSAGE [Info]	2023-07-18T15:18:24-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:29.977
+!MESSAGE [Info]	2023-07-18T15:18:29-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":54,"line":30},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:32.045
+!MESSAGE [Info]	2023-07-18T15:18:32-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":91,"line":30},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:39.778
+!MESSAGE [Info]	2023-07-18T15:18:39-03:00 INF RECEIVING method=NoOpHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:40.065
+!MESSAGE [Info]	2023-07-18T15:18:39-03:00 INF Receiving method=TextDocumentDidSaveHandler params={"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:40.125
+!MESSAGE [Info]	2023-07-18T15:18:39-03:00 WRN skipping scan of untrusted path method=domain.ide.workspace.folder.scan path="C:\\Users\\jose.brandao.AMERICANAS\\Documentos\\bhd\\udemy\\JavaCICD\\04_rest-test-repository-layer\\src\\main\\java\\br\\com\\erudio\\repositories\\PersonRepository.java"
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:18:40.127
+!MESSAGE [Info]	2023-07-18T15:18:39-03:00 INF publishing diagnostics diagnosticCount=0 documentURI=file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/main/java/br/com/erudio/repositories/PersonRepository.java method=registerNotifier source=LSP
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:18:48.366
+!MESSAGE Classpath changed for project: 04_rest-test-repository-layer
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-18 15:19:06.686
+!MESSAGE LanguageServer not initialized within 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:823)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:300)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:556)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:316)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:403)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:152)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:129)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:09.690
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:10.075
+!MESSAGE [Info]	2023-07-18T15:19:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:10.076
+!MESSAGE [Info]	2023-07-18T15:19:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:10.077
+!MESSAGE [Info]	2023-07-18T15:19:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:10.081
+!MESSAGE [Info]	2023-07-18T15:19:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:10.083
+!MESSAGE [Info]	2023-07-18T15:19:10-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:19:10.084
+!MESSAGE [Info]	2023-07-18T15:19:10-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:22:47.321
+!MESSAGE [Info]	2023-07-18T15:22:47-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:22:47.322
+!MESSAGE [Info]	2023-07-18T15:22:47-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:22:56.042
+!MESSAGE [Info]	2023-07-18T15:22:56-03:00 INF RECEIVING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:22:56.046
+!MESSAGE [Info]	2023-07-18T15:22:56-03:00 INF SENDING method=CodeLensHandler
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:23:02.721
+!MESSAGE [Info]	2023-07-18T15:23:02-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":197},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:24:36.706
+!MESSAGE [Info]	2023-07-18T15:24:36-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":178},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:24:40.478
+!MESSAGE [Info]	2023-07-18T15:24:40-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":197},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:24:43.984
+!MESSAGE [Info]	2023-07-18T15:24:43-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":9,"line":197},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-18 15:25:39.706
+!MESSAGE [Info]	2023-07-18T15:25:39-03:00 INF RECEIVING method=TextDocumentHover params={"position":{"character":33,"line":122},"textDocument":{"uri":"file:///C:/Users/jose.brandao.AMERICANAS/Documentos/bhd/udemy/JavaCICD/04_rest-test-repository-layer/src/test/java/br/com/erudio/repositories/PersonRepositoryTest.java"}}
+
